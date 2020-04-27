@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     $('.box').click(function() {
-        self = $(this)
+        var self = $(this)
 
         $.ajax({
             url: 'https://flynn.boolean.careers/exercises/api/random/int',
@@ -18,4 +18,3 @@ $(document).ready(function() {
     })
 
 })
-
